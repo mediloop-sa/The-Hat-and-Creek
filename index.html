@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Hat &amp; Creek — Hoedspruit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,400;1,9..144,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav" id="siteNav">
+  <div class="wrap nav-inner">
+    <a href="#" class="nav-logo script">The Hat &amp; Creek</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#story">Our Story</a>
+      <a href="#atmosphere">Atmosphere</a>
+      <a href="#menu">Menu</a>
+      <a href="#visit">Visit</a>
+      <a href="#reserve" class="cta">Reserve a Table</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="tree-silhouette"></div>
+  <div class="lights" id="lightsField"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">HOEDSPRUIT &middot; LIMPOPO</div>
+    <h1 class="script">The Hat &amp; Creek</h1>
+    <p class="hero-tagline">Good food. Good friends. Great times.</p>
+    <p class="hero-loc">Fifteen years of alfresco dining under the bushveld sky</p>
+    <div class="hero-ctas">
+      <a href="#reserve" class="btn btn-solid">Reserve a Table</a>
+      <a href="#menu" class="btn btn-outline">View the Menu</a>
+    </div>
+  </div>
+  <div class="scroll-cue"></div>
+</section>
+
+<div class="marquee">
+  <div class="marquee-track" id="marqueeTrack"></div>
+</div>
+
+<section class="statement">
+  <div class="wrap">
+    <div class="statement-collage reveal">
+      <div class="stack-tile stile-1 ph" style="--photo:url('images/hero-terrace.jpg')"><span>Terrace at golden hour</span></div>
+      <div class="stack-tile stile-2 ph" style="--photo:url('images/dish-signature.jpg')"><span>Fillet &amp; prawns, plated</span></div>
+      <div class="stack-tile stile-3 ph" style="--photo:url('images/candlelight.jpg')"><span>Candlelight close-up</span></div>
+      <div class="vignette"></div>
+      <h2 class="statement-headline">Good Food.<br>Good Friends.<br>Great Times.</h2>
+    </div>
+  </div>
+</section>
+
+<section class="collage-intro" id="reserve">
+  <div class="wrap">
+    <div class="section-light reveal"><span class="bulb"></span><span class="thread"></span></div>
+    <div class="eyebrow-label reveal">RESERVE A TABLE</div>
+    <div class="collage-grid reveal">
+      <div class="reserve-card">
+        <h3>Join us for dinner</h3>
+        <p class="muted">Send a request and we'll confirm by phone or email.</p>
+        <form id="reserveForm">
+          <input type="text" id="rFirst" placeholder="First name" required>
+          <input type="text" id="rLast" placeholder="Last name" required>
+          <input type="tel" id="rPhone" placeholder="Phone number" required>
+          <input type="email" id="rEmail" placeholder="Email" required>
+          <textarea id="rNotes" rows="2" placeholder="Preferred date &amp; party size"></textarea>
+          <button type="submit" class="btn btn-solid full">Request a Table</button>
+        </form>
+      </div>
+      <div class="feature-tile large ph" style="--photo:url('images/dish-signature.jpg')">
+        <div class="overlay-text">
+          <span class="eyebrow-label">OUR MASTERPIECE</span>
+          <h3 class="script">South Coast Fillet</h3>
+          <a href="#menu" class="btn btn-outline small">Explore the Menu</a>
+        </div>
+      </div>
+      <div class="feature-tile small ph" style="--photo:url('images/private-dining.jpg')"><span>Private dining corner</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="info-strip">
+  <div class="wrap">
+    <div class="section-light reveal"><span class="bulb"></span><span class="thread"></span></div>
+    <div class="eyebrow-label reveal">WHAT TO KNOW</div>
+    <div class="info-grid reveal">
+      <div class="info-card"><span class="mark">&#9670;</span><h4>Reservations</h4><p>We recommend booking ahead, especially on weekends and during peak season.</p></div>
+      <div class="info-card"><span class="mark">&#9670;</span><h4>Terrace Seating</h4><p>Most tables are outdoors beneath the trees and string lights &mdash; dress for the evening air.</p></div>
+      <div class="info-card"><span class="mark">&#9670;</span><h4>Private Groups</h4><p>Celebrating something? Ask about arrangements for larger parties.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="story" id="story">
+  <div class="wrap">
+    <div class="story-number reveal">15<small>YEARS OF MEMORIES,<br>PEOPLE &amp; PASSION</small></div>
+    <div class="story-copy reveal">
+      <p class="lede">What started as a small table under a tree has grown into Hoedspruit's evening gathering place &mdash; without losing what made it special.</p>
+      <p>The Hat &amp; Creek sits along Main Street, where dinner unfolds slowly: candlelight, string lights threaded through the trees, and a menu built for lingering rather than rushing.</p>
+      <p>It's the kind of place regulars bring out-of-towners to &mdash; good food, good friends, great times, exactly as promised.</p>
+    </div>
+    <div class="story-photos reveal">
+      <div class="ph sp-1" style="--photo:url('images/kitchen.jpg')"><span>In the kitchen</span></div>
+      <div class="ph sp-2" style="--photo:url('images/plating.jpg')"><span>Plating the evening's service</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="atmosphere" id="atmosphere">
+  <div class="wrap">
+    <div class="section-light reveal"><span class="bulb"></span><span class="thread"></span></div>
+    <div class="section-head reveal">
+      <div class="eyebrow-label">THE SETTING</div>
+      <h2>An evening outdoors, done properly</h2>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="g1 gframe-wrap">
+        <div class="ph" style="--photo:url('images/hero-terrace.jpg')"><span>The main terrace at dusk</span></div>
+        <div class="accent-overlap ph" style="--photo:url('images/candlelight.jpg')"><span>Candlelight up close</span></div>
+      </div>
+      <div class="g2 gframe-wrap"><div class="ph" style="--photo:url('images/candlelight.jpg')"><span>Candlelit table settings</span></div></div>
+      <div class="g3 gframe-wrap"><div class="ph" style="--photo:url('images/garden-path.jpg')"><span>String-lit garden pathway</span></div></div>
+      <div class="g4 gframe-wrap"><div class="ph" style="--photo:url('images/dish-plated.jpg')"><span>Plated dinner service</span></div></div>
+      <div class="g5 gframe-wrap"><div class="ph" style="--photo:url('images/under-trees.jpg')"><span>Under the old trees</span></div></div>
+      <div class="g6 gframe-wrap"><div class="ph" style="--photo:url('images/wine-terrace.jpg')"><span>Wine on the terrace</span></div></div>
+    </div>
+    <p class="gallery-note">Placeholder frames &mdash; swap in The Hat &amp; Creek's own photography here once we're building this for real.</p>
+  </div>
+</section>
+
+<section class="menu-feature" id="menu">
+  <div class="wrap">
+    <div class="menu-visual ph reveal" style="--photo:url('images/dish-signature.jpg')"><span>Featured dish photography</span></div>
+    <div class="menu-list reveal">
+      <div class="section-light"><span class="bulb"></span><span class="thread"></span></div>
+      <div class="eyebrow-label">FROM THE KITCHEN</div>
+      <h2 class="big">A few favourites</h2>
+      <div class="dish"><div><div class="dish-name">South Coast Fillet</div><div class="dish-desc">Grilled beef fillet with prawns, seasonal vegetables and rice</div></div><div class="dish-tag">SIGNATURE</div></div>
+      <div class="dish"><div><div class="dish-name">Garden Terrace Starters</div><div class="dish-desc">Shared plates suited to a slow start to the evening</div></div><div class="dish-tag">TO SHARE</div></div>
+      <div class="dish"><div><div class="dish-name">Wine &amp; Evening Cocktails</div><div class="dish-desc">A list chosen to match the pace of a night on the terrace</div></div><div class="dish-tag">BAR</div></div>
+      <p class="menu-note">Full seasonal menu available on request &mdash; ask when you book.</p>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="wrap">
+    <div class="section-light reveal"><span class="bulb"></span><span class="thread"></span></div>
+    <div class="eyebrow-label reveal">FIND US</div>
+    <div class="visit-columns reveal">
+      <div>
+        <div class="visit-col"><div class="visit-block"><h3>ADDRESS</h3><p>R527, Main Street</p><p>Hoedspruit, Limpopo, 1380</p><p class="muted">South Africa</p></div></div>
+        <div class="visit-col"><div class="visit-block"><h3>RESERVATIONS</h3><a href="tel:+27157931135">+27 15 793 1135</a><a href="https://wa.me/27157931135" target="_blank" rel="noopener">Message on WhatsApp</a><a href="mailto:cheryl@thehatandcreek.co.za">cheryl@thehatandcreek.co.za</a></div></div>
+        <div class="visit-col"><div class="visit-block"><h3>DINING</h3><p class="muted">Dine-in &middot; Outdoor seating</p><p class="muted">Hours and seasonal opening dates available on request</p></div></div>
+      </div>
+      <div class="map-frame">
+        <iframe title="The Hat & Creek on the map" src="https://maps.google.com/maps?q=R527%20Main%20St%2C%20Hoedspruit%2C%20South%20Africa%2C%201380&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0; min-height:340px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap reveal">
+    <h2 class="script">Escape the ordinary, one evening at a time.</h2>
+    <div class="hero-ctas">
+      <a href="#reserve" class="btn btn-solid">Reserve a Table</a>
+      <a href="https://wa.me/27157931135" target="_blank" rel="noopener" class="btn btn-outline">WhatsApp Us</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-logo script" style="font-size:1.4rem;">The Hat &amp; Creek</div>
+      <div class="footer-links">
+        <div><h4>VISIT</h4><p>R527, Main St</p><p>Hoedspruit, 1380</p></div>
+        <div><h4>CONTACT</h4><a href="tel:+27157931135">+27 15 793 1135</a><a href="mailto:cheryl@thehatandcreek.co.za">cheryl@thehatandcreek.co.za</a></div>
+        <div><h4>FOLLOW</h4><a href="#">Facebook</a><a href="#">Instagram</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; The Hat &amp; Creek, Hoedspruit</span>
+      <span>Design mockup &mdash; not yet affiliated with the restaurant</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js" defer></script>
+
+</body>
+</html>
